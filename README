@@ -1,0 +1,45 @@
+/**Written by Igor Puścion**/
+
+1. Opis problemu i celów projektu
+  a)Problem:
+    Matematyka, zwłaszcza funkcje liniowe i kwadratowe, często sprawia trudności wielu uczniom i studentom. Głównym problemem jest brak możliwości szybkiego i intuicyjnego wizualizowania tych funkcji. Ręczne rysowanie wykresów jest czasochłonne, podatne na błędy i może zniechęcać do nauki. 
+
+  b)Cele projektu:
+    - Przystępna prezentacja funkcji:  Stworzenie narzędzia, które w prosty sposób przedstawia funkcje liniowe i kwadratowe, ułatwiając ich zrozumienie.
+    - Wsparcie w nauce:  Oferowanie praktycznej pomocy w rozwiązywaniu zadań matematycznych poprzez wizualizację wyników.
+    - Szybkie identyfikowanie rozwiązań:  Automatyczne określanie, czy rozwiązania funkcji znajdują się w zbiorze liczb rzeczywistych czy urojonych.
+    - Intuicyjny interfejs:  Projektowanie aplikacji o czytelnym i przyjaznym interfejsie użytkownika, który będzie łatwy w obsłudze
+
+2. Zastosowane technologie i materiały
+  a)Technologie:
+    - Język C++:  Wybrany ze względu na swoją uniwersalność, efektywność i moje osobiste doświadczenie w programowaniu w tym języku. C++ wymusza również dyscyplinę w zarządzaniu typami danych, co przyczyniło się do stabilności kodu.
+    - Biblioteka GTKmm:  Użyta do stworzenia graficznego interfejsu użytkownika. GTKmm oferuje obszerną dokumentację oraz możliwość kompilacji na różnych platformach (Windows, Linux, macOS), co było kluczowe dla mojego projektu.
+    - Biblioteka Cairo (przez cairomm):  Wykorzystana do rysowania wykresów funkcji w układzie współrzędnych. Biblioteka ta integruje się płynnie z GTKmm, co ułatwiło implementację grafiki.
+
+  b)Materiały:
+    - Photopea.com:  Narzędzie online, które posłużyło mi do tworzenia prostych grafik używanych w aplikacji, takich jak ikony przycisków.
+    - Dokumentacja techniczna:  Dokumentacje GTKmm, Cairo oraz języka C++ były nieodłącznym źródłem wiedzy podczas realizacji projektu. Bez nich nie byłoby możliwe zrozumienie mechanizmów działania użytych bibliotek.
+
+3. Opis procesu realizacji
+  a)Planowanie
+    Na początku określiłem główne cele projektu oraz funkcjonalności, które chciałem zaimplementować. Następnie zaplanowałem strukturę aplikacji, w tym modele obiektów, układ interfejsu użytkownika oraz logikę obsługi funkcji.
+  b)Wstępny prototyp
+    Stworzyłem podstawową wersję aplikacji, która umożliwiała obliczanie jednej funkcji z danych podanych z góry w programie i wyświetlanie jej wykresu. To pozwoliło mi zweryfikować, czy wybrane technologie są odpowiednie dla projektu.
+  c)Dodawanie funkcjonalności
+    Krok po kroku dodawałem nowe funkcje, takie jak obsługa wielu funkcji jednocześnie, usuwanie funkcji, wyświetlanie legendy oraz skalowanie osi współrzędnych. Każda nowa funkcjonalność była testowana od razu po implementacji.
+  d)Testowanie
+    Aplikacja została przetestowana w różnych scenariuszach, w tym przy wprowadzaniu nieprawidłowych danych, dodawaniu maksymalnej liczby funkcji oraz usuwaniu ich. Dzięki temu mogłem wyeliminować błędy i zoptymalizować działanie programu.
+  e)Dokumentacja
+    Na koniec przygotowałem dokumentację projektu, która obejmuje opis problemu, zastosowane technologie, proces realizacji oraz wyniki. Jest to ważne, aby inni użytkownicy mogli zrozumieć, jak działa aplikacja, i ewentualnie ją rozwijać.
+
+4. Wyniki i wnioski
+  a)Wyniki:
+    - Aplikacja umożliwia użytkownikom dodawanie, usuwanie i wizualizację do pięciu funkjci jednocześnie.
+    - Wykresy są wyświetlane w czytelnym układzie współrzędnych z podziałką co 10 pikseli.
+    - Rozwiązania funkcji są automatycznie rozróżniane.
+    - Interfejs uzytkownika jest intuicyjny i responyswny.
+  b)Wnioski:
+    Projekt pokazuje, że można stworzyć zaawansowaną aplikację edukacyjną przy użyciu prostych narzędzi.
+5. Podziękowania
+  Szczególne dziękuje panu Dariuszowi Rudzkiemu podczas rozmowy, z którym wpadłem na pomysł, który przerodził się w tą aplikację.
+
