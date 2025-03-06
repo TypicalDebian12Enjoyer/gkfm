@@ -1,3 +1,5 @@
+/**Written by Igor Puścion**/
+
 #include "ui/rysowanko.h"
 #include "ui/okienko.h"
 #include <iostream>
